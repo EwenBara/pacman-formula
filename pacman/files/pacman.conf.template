@@ -40,6 +40,7 @@ Architecture = auto
 {% if not config.options.TotalDownload   %}#{% endif %}TotalDownload
 {% if not config.options.CheckSpace      %}#{% endif %}CheckSpace
 {% if not config.options.VerbosePkgLists %}#{% endif %}VerbosePkgLists
+{% if     config.options.ILoveCandy      %}ILoveCandy{% endif %}
 
 # By default, pacman accepts packages signed by keys that its local keyring
 # trusts (see pacman-key and its man page), as well as unsigned packages.

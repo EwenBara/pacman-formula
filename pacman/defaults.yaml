@@ -11,6 +11,7 @@ pacman:
       TotalDownload: False
       CheckSpace: True
       VerbosePkgLists: False
+      ILoveCandy: False
     repositories:
       101:
         enable: False
