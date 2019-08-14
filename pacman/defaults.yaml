@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+pacman:
+  package: pacman
+  config_file: /etc/pacman.conf
+  config:
+    options:
+      UseSyslog: False
+      Color: False
+      TotalDownload: False
+      CheckSpace: True
+      VerbosePkgLists: False
+    repositories:
+      102:
+        name: 'core'
+        include: '/etc/pacman.d/mirrorlist'
+      103:
+        name: 'extra'
+        include: '/etc/pacman.d/mirrorlist'
+      105:
+        name: 'community'
+        include: '/etc/pacman.d/mirrorlist'
