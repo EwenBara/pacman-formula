@@ -106,7 +106,13 @@ Include = /etc/pacman.d/mirrorlist
 {% for key, repository in config.repositories.items() %}
 {% if repository.comment is defined %}{{ repository.comment }}{% endif -%}
 [{{ repository.name }}]
-	{% if repository.siglevel is defined %}SigLevel = {{ repository.siglevel | join(' ') }}{% endif -%}
-	{% if repository.server   is defined %}Server = {{ repository.server }}{% endif -%}
-	{% if repository.include  is defined %}Include = {{ repository.include }}{% endif %}
+        {% if repository.siglevel is defined -%}
+                SigLevel = {{ repository.siglevel | join(' ') }}
+        {% endif -%}
+        {%- if repository.server   is defined -%}
+                Server = {{ repository.server }}
+        {% endif -%}
+        {%- if repository.include  is defined -%}
+                Include = {{ repository.include }}
+        {% endif -%}
 {% endfor %}
