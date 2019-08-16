@@ -1,0 +1,9 @@
+name: pacman
+os: Arch
+os_family: Arch
+version: 1.0.0
+release: 1
+minimum_version: 2019.02
+summary: Pacman formula
+description: Formula to configure pacman
+top_level_dir: pacman
