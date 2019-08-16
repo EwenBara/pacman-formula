@@ -1,4 +1,4 @@
-config_file = /etc/pacman.conf
+config_file = '/etc/pacman.conf'
 
 control 'Pacman configuration' do
   title 'should match desired lines'
