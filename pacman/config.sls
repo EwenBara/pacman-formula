@@ -12,4 +12,4 @@ pacman.config:
     - template: jinja
     - source: salt://{{ slspath }}/files/pacman.conf.template
     - context:
-        config: {{ pacman.config | json }}
+        config: {{ pacman.config | yaml }}
