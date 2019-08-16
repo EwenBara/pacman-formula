@@ -119,7 +119,7 @@ provisioner:
   log_level: info
   salt_install: none
   require_chef: false
-  formula: template
+  formula: pacman
   salt_copy_filter:
     - .kitchen
     - .git
@@ -138,14 +138,14 @@ suites:
       state_top:
         base:
           '*':
-            - template
+            - pacman
       pillars:
         top.sls:
           base:
             '*':
-              - template
+              - pacman
       pillars_from_files:
-        template.sls: pillar.example
+        pacman.sls: pillar.example
     verifier:
       inspec_tests:
         - path: test/integration/default
