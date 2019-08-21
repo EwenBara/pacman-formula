@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/EwenBara/pacman-formula/compare/v1.0.0...v1.0.1) (2019-08-21)
+
+
+### Documentation
+
+* **contributing:** add documentation contribution guidelines ([d8dd7fe](https://github.com/EwenBara/pacman-formula/commit/d8dd7fe))
+
 # 1.0.0 (2019-08-16)
 
 
