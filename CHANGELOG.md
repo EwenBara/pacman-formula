@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/EwenBara/pacman-formula/compare/v1.0.1...v1.0.2) (2019-08-21)
+
+
+### Documentation
+
+* **readme:** add basic readme ([ace7a51](https://github.com/EwenBara/pacman-formula/commit/ace7a51))
+
 ## [1.0.1](https://github.com/EwenBara/pacman-formula/compare/v1.0.0...v1.0.1) (2019-08-21)
 
 
